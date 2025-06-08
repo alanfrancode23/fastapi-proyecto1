@@ -34,7 +34,11 @@ Puedes desplegar esta API fácilmente en Render siguiendo estos pasos:
 1.Crea una cuenta en Render.
 2.Crea un nuevo servicio web y conecta tu repositorio de GitHub.
 3.Configura los siguientes parámetros:
-    Build Command: pip install -r requirements.txt
-    Start Command: uvicorn main:app --host 0.0.0.0 --port 10000
+Build Command: pip install -r requirements.txt
+Start Command: uvicorn main:app --host 0.0.0.0 --port 10000
 4.Asegúrate de que el puerto esté configurado correctamente (Render usa el puerto 10000 por defecto).
 5.¡Listo! Render te dará una URL pública para acceder a tu API.
+
+Link de mi despligue en Render
+https://primer-proyecto-fastapi.onrender.com/
+https://primer-proyecto-fastapi.onrender.com/docs
