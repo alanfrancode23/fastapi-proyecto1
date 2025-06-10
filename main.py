@@ -26,8 +26,9 @@ class PostUpdate(BaseModel):
 
 @app.get("/")
 def read_root():
-    #return {"Hola me llamo Alan": "Bienvenido a mi Proyecto"}
-    return {"Te Amo Maite": "Aunque seas pesada y me hagas enojar, siempre estaré aquí para ti <3"}
+    return {"Hola me llamo Alan": "Bienvenido a mi Proyecto"}
+
+
 @app.get("/posts")
 def get_posts():
     return posts
